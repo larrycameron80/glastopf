@@ -6,7 +6,7 @@ lxml
 sqlalchemy>=0.8.0
 jinja2
 beautifulsoup>=3.2.0
-requests>=1.0.0
+requests>=2.31.0
 cssselect>=0.7.0
 pymongo>=2.4
 MySQL-python
@@ -14,3 +14,5 @@ hpfeeds
 pylibinjection
 libtaxii>=1.1
 python-logstash
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=41.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
